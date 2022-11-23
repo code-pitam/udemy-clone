@@ -525,3 +525,74 @@ padding: 10px;
         justify-self: flex-end;
     }
   }
+
+  @media only screen and (max-width: 600px) {
+
+    .c-type{
+        flex-wrap: wrap;
+        
+    }
+    .course{
+    align-items: center;
+    justify-content: center;
+    }
+    .course a{
+        width:80%;
+    }
+    .top-cat{
+        align-items: center;
+        justify-content: center;
+    }
+    .cat{
+        width: 80%;
+    }
+    .cat-list{
+        width: 80%;
+    }
+    .all-cat{
+        flex-wrap: wrap;
+    }
+    .business{
+        flex-direction: column-reverse;
+        width: 80%;
+        
+    }
+    .business .b-left ,.b-left{
+        width: 100%;
+
+    }
+    .business .b-right{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .teacher{
+        flex-direction: column;
+        width: 80%;
+    }
+    .t-left{
+        width: 100%;
+    }
+    .t-right{
+        width: 100%;
+    }
+    .f-upper{
+        flex-wrap: wrap;
+
+    }
+    .f-upper ul{
+        width: 50%;
+
+
+
+
+    }
+
+    .more-info .container{
+        flex-direction: column;
+
+    }
+    .info1{
+        width: 100%;
+    }
+  }
