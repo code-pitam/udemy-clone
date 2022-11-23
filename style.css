@@ -203,3 +203,49 @@ color:#1c1d1f
     text-decoration:line-through;
     margin-left: 5px;
 }
+
+
+.more-info{
+    margin-top: 30px;
+    background-color: #f7f9fa;
+    color:#1c1d1f;     
+}
+.more-info .container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.info1{
+    display: flex;
+    width: 30%;
+    align-items: center;
+}
+.info-icon{
+    margin: 20px;
+padding: 20px;
+    font-size: 20px;
+    width: 50px;
+    background-color: #d1d7dc;
+   height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.student-view{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    
+}
+.student-view p{
+    margin-bottom: 10px;
+}
+.bestseller{
+    background-color: #eceb98;
+    color:#3d3c0a;
+    margin-top: 10px;
+ padding: 5px;
+    width: fit-content;
+}
