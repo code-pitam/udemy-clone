@@ -249,3 +249,279 @@ padding: 20px;
  padding: 5px;
     width: fit-content;
 }
+
+
+
+.top-cat{
+    margin-top: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+
+}
+.cat{
+    width: 23%;
+    aspect-ratio: 1/1;
+   
+    margin: 10px;
+
+}
+.cat-img{
+    background-color: #e2e6ea;
+    width: 100%;
+    height: 100%;
+}.cat-img img{
+    width: 100%;
+    
+}
+.cat p{
+    color: black;
+    margin-left:20px  20px 0 0;
+    font-weight: bold;
+}
+.cat:hover .cat-img img{
+    width: 105%;
+
+}
+
+.feature{
+    margin-top: 50px;
+    background-color: #f7f9fa;
+}
+.f-cat{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.all-cat{
+    display: flex;
+}
+.cat-list{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.cat-list a{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.cat-list p{
+    margin: 5px 10px;
+}
+.c-bold{
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.f-e{
+   padding: 10px;
+   border: 1px solid black;
+   width: fit-content;
+   font-weight: bold;
+   margin: 30px ;
+   margin-bottom: 70px;
+}
+.f-e a{
+    color: black;
+
+}
+
+
+.company{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.company p{
+    text-align: center;
+    margin: 10px;
+}
+.company-img{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.business{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.b-left{
+    margin-top: 40px;
+    width: 40%;
+    margin-left: 50px
+
+}
+.b-left img{
+    width: 50%;
+    margin-top20px: ;
+}
+.b-left p{
+    margin-top: 20px;
+}
+.b-left ul{
+    margin: 50px 0;
+}
+.b-left ul li{
+margin: 15px;
+}
+.b-right{
+
+    padding: 20px;
+    width: 50%;
+}
+.b-right img{
+    width: 100%;
+ 
+}
+
+.teacher{
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.t-left{
+    width: 45%;
+}
+.t-right{
+    width: 45%;
+}
+.t-left img{
+    width: 100%;
+
+}
+.t-right p{
+    margin: 40px 0;
+}
+
+
+.footer{
+    display: flex;
+  flex-direction: column;  
+  padding: 20px;
+  color: white;
+  background-color: black;
+
+}
+.footer .f-upper{
+margin-top: 20px;
+    display: flex;margin-bottom: 100px;
+    justify-content: space-between;
+
+}
+
+.f-upper ul li {
+    margin: 10px;
+    color: white;
+    list-style: none;
+
+}
+.f-upper ul li:hover{
+    text-decoration: underline;
+}
+.f-upper ul li a{
+    color: white;
+}
+.f-upper p{
+height: fit-content;
+padding: 10px;
+    border: 1px solid white;
+    width: fit-content;
+}
+.f-upper p i{
+    margin-left: 5px;
+}
+.f-lower{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.f-lower img{
+    width: 100px;
+}
+
+@media only screen and (max-width: 1080px) {
+    .nav-text{
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 1080px) {
+    .c-type{
+        flex-wrap: wrap;
+        
+    }
+    .course a{
+        width:48%;
+    }
+    .cat{
+        width: 40%;
+    }
+    .cat-list{
+        width: 50%;
+    }
+    .all-cat{
+        flex-wrap: wrap;
+    }
+    .business{
+        flex-direction: column-reverse;
+        width: 80%;
+        
+    }
+    .business .b-left ,.b-left{
+        width: 100%;
+
+    }
+    .business .b-right{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .teacher{
+        flex-direction: column;
+        width: 80%;
+    }
+    .t-left{
+        width: 100%;
+    }
+    .t-right{
+        width: 100%;
+    }
+    .f-upper{
+        flex-wrap: wrap;
+
+    }
+    .f-upper ul{
+        width: 50%;
+
+
+
+
+    }
+  }
+  @media only screen and (max-width: 650px) {
+
+    .search{
+        display: none;
+    }
+    nav .container{
+        justify-content: space-between;
+    }
+    nav .login{
+        justify-self: flex-end;
+        justify-content: flex-end;
+    }
+    nav .singup{
+        justify-self: flex-end;
+    }
+  }
