@@ -598,4 +598,9 @@ padding: 10px;
     .hero{
         margin: 20px !important;
     }
+.b-left a{
+    display:block;
+    margin: 10px;
+    width: fit-content;
+}
   }
