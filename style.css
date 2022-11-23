@@ -595,4 +595,7 @@ padding: 10px;
     .info1{
         width: 100%;
     }
+    header div{
+        padding: 10px;
+    }
   }
